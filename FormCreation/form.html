@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <style>
+        body{
+
+        }
+        .hello{
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background-image: url("Swan.jpeg");
+            background-position: center;
+            color: aliceblue;
+            
+        }
+
+        .form{
+            background-image: url("BeautyCat.jpeg");
+            background-size: cover;
+            color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+        .form form {
+            display: flex;
+            flex-direction: column; /* Align inputs in a column */
+            align-items: center;
+        }
+
+        .form label, .form input {
+            margin: 5px 0; /* Add some spacing between label-input pairs */
+        }
+    </style>
+</head>
+<body>
+    <div class="hello">
+        <h1>Signup</h1>
+    </div>
+    <div class="form">
+        <form action="done.html">
+            <label for="username">Username</label>
+            <input required type="text" id="username">
+            <label for="password">Password</label>
+            <input required type="password" name="password" id="password">
+            <label for="email">Email</label>
+            <input required type="email" id="email">
+            <label for="address">Address</label>
+            <input required type="text" id="address"> 
+            <label for="number">Phone</label>
+            <input required type="number" id="number">
+            <label for="Signup">Signup</label>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

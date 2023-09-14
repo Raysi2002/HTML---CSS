@@ -1,0 +1,44 @@
+We can create list in HTML
+-----TYPES-----
+1. Ordered list
+2. Unordered list
+3. Description list
+
+--------ORDERED LIST--------
+This list is ordered type . Order can be done in any way like (numbering, alphabatical or Roman number)
+It's simple can be done with keyword (ol)
+inside the (ol) we can add list item using (li)
+
+    <ol>
+        <li>Element-1</li>
+        <li>Element-2</li>
+        <li>Element-4</li>
+        <li>Element-3</li>
+    </ol>
+
+________UNORDERED LIST_________
+This is unordered type and the SN will be done with dot,circle,non etc etc
+It's simply can be done with (ul)
+inside the (ul) we can add item list using (li)
+
+<ul>
+        <li>Element-1</li>
+        <li>Element-2</li>
+        <li>Element-4</li>
+        <li>Element-3</li>
+    </ul>
+
+
+___________DESCRIPTION TYPE___________
+This is used to describe beneth it
+This can be simple done with (dl)
+We need to define the term first inside which we want to describe & it can be done with (dt)
+TO describe the term , we can ue (dd)
+
+<dl>
+        <dt>Aashish Kumar Ray</dt>
+        <dd>Currently Pusuing B.Tech in GIET</dd>
+        <dt>Preeti Yadav</dt>
+        <dd>Currently in Love with Aashish</dd>
+    </dl>
+

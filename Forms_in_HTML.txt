@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <H1>HTML FORMS</H1>
+    <form action="Action or file we want to perform">
+        <label for="username">USERNAME</label>
+        <input type="text" id="username">
+        <br> <br>
+        <label for="password">PASSWORD</label>
+        <input type="password" is="password">
+        <br> <br> 
+        <label for="email">EMAIL</label>
+        <input type="email" id="email" >
+        <br> <br> 
+        <input type="submit" value="SIGN IN">
+    </form>
+</body>
+</html>
+
+________ACTION__________
+(action) attribute is used to perform the action after submiting the form
+<form action="Action or file we want to perform">
+
+______PLACEHOLDER______
+(placeholder) are used to indicate a small message a form input label. It should be wrote inside the input of the label
+
+______required_____
+(required) is used to making a label of form mandatory to fill up.
+It should be wrote inside the input of the label

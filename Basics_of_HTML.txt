@@ -1,0 +1,19 @@
+HEADINGS
+We have six headings & that can be accessed with the help of writing just [h1,h2 or any upto h6] and it will autocomplete becaause VS Code come with emmet 
+
+COMMENTS
+Comments in HTMl
+<!--Comment-->
+Shortcut for commenting
+[cmd+/] as usual like you do in code commenting
+
+PARAGRAPGH
+It's to write a paragraph and simply [ p ] can generate paragraph tags
+
+NEW LINE TAGE[<br>]
+or use <p>Second paragraph</p>
+
+DUMMY DATA
+Dummy data can be created by using [<p>lorem</p>]
+& if want to generate specific number of words the use
+[lorem50 ]

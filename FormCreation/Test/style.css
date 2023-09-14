@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    background-image: url("UniverseView.jpeg");
+    background-size:cover;
+    /* opacity:calc(.5); */
+}
+.head h1{
+    color:aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 10cm;
+}
+.login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: calc(.8);
+    background-color: yellow;
+}
+.login label, .login input {
+    margin: 5px;
+    color: white;
+    size: 5cm;
+    border-radius: 15px;
+    size: 15px;
+    padding:10px;
+}
+input[type="password"]::placeholder{
+    text-align: center;
+}
+input[type="email"]::placeholder{
+    text-align: center;
+}
+input[type="text"]::placeholder{
+    text-align: center;
+}
+input[type="number"]::placeholder{
+    text-align: center;
+}

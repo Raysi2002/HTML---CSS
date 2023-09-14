@@ -1,0 +1,9 @@
+simply type [img] for image adding
+it comes with two options 
+i.e 
+src= The image you want to add or link of the image you want to add
+alt= This is a alternative options and this will show case in case of the src case is not working or deleted from it's place or link is deleted
+
+
+IMAGE AS A LINK 
+<a href="Add The Link here" target="_blank"><img src="./(Source of the Image)" height="200" width="200"alt="Alternative of Image"></a>

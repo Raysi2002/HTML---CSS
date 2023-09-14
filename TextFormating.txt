@@ -1,0 +1,8 @@
+Some Tricks of Formating text in HTML
+1. (b)--> to bold the text
+1. (strong) --> ALternative of (b)
+2. (i) --> To make the word or text italic
+2. (em) --> ALternative of (i)
+3. (mark) --> To highlight the text
+4. (sub) --> To write some thing below the word
+5. (sup) --> To wrtie something above the word

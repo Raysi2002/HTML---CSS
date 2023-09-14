@@ -1,0 +1,44 @@
+TO MAKE A TABLE IN HTML , DO THE FOLLOWINGS
+______HEAD PART_____
+1. (table) to create format of table
+2. (thead) to create head of the table in bold
+3. (tr) to create table row
+4. (th) to create table heading name
+
+_______BODY PART_______
+1. (tbody) to created body format
+2. (tr) to insert the data inside the table row of heading
+3. (td) to describe the data or text data
+
+
+_________BORDER PART________
+just define border size inside the table tag and mention the size of border
+
+    
+    <table border="16">
+        <thead>
+            <tr>
+                <th>Students</th>
+                <th>Branch</th>
+                <th>Pin</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Aashsish Kumar Ray</td>
+                <td>CS</td>
+                <td>22551A0571</td>
+            </tr>
+            <tr>
+                <td>Dipesh K. Paswan</td>
+                <td>CS</td>
+                <td>22551A0586</td>
+            </tr>
+            <tr>
+                <td>Roshan Kumar Sah</td>
+                <td>CS</td>
+                <td>22551A05C2</td>
+            </tr>
+        </tbody>
+    </table>
