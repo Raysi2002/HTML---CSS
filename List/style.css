@@ -1,0 +1,26 @@
+body{
+    background-image: url(Lion.jpeg);
+    background-size: cover;
+}
+.List{
+    background-color: aqua;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 100px 100px;
+    height: 12pc;
+    width: 10pc;
+}
+.List ol{
+    color: black;
+    font-size: xx-large;
+    opacity: calc(.7);
+}
+.List ul{
+    font-size:large;
+    color: red;
+}
+.fontt{
+    color: brown;
+
+}
