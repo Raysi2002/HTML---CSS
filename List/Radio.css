@@ -1,0 +1,11 @@
+.radio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Lion.jpeg);
+    background-size: cover;
+    color: aliceblue;
+}
+.radio input{
+    height: auto;
+}
