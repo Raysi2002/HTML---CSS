@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid greenyellow;
+    margin: 4pc;
+}
+p{
+    color: aliceblue;
+}
+.image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px;
+}
+.img{
+    height: 30pc;
+    width: 50pc;
+}
