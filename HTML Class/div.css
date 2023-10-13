@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sqr{
+    border: 5px solid green;
+    height: 400px;
+    width: 400px;
+    background-color:rgba(33, 37, 41, 0.2);
+    backdrop-filter:blur(23px);
+    border-radius: 2pc;
+    padding: 1pc;
+}
+.sec{
+    border: 5px solid green;
+    height: 400px;
+    width: 400px;
+    background-color:rgba(33, 37, 41, 0.2);
+    backdrop-filter:blur(23px);
+    border-radius: 2pc;
+    padding: 1pc;
+    margin: 1pc;
+}
