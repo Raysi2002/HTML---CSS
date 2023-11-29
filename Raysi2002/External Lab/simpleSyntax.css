@@ -1,0 +1,30 @@
+body{
+    background-image: url(Leafs.jpg) ;
+    background-size: cover;
+}
+.content{
+    border: 5px solid green;
+    margin: auto;
+    padding: 50px;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:fantasy;
+    font-size: xx-large;
+    color: #ff0101;
+    border: 5px solid rebeccapurple;
+    border-radius: 1pc;
+    /* width: fit-content;
+    height: fit-content; */
+}
+.content p{
+    font-family:cursive;
+    color: #fffb01;
+    border: 3px solid rebeccapurple;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 1pc;
+}
